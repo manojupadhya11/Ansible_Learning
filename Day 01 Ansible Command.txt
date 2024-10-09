@@ -1,0 +1,85 @@
+<<<<--------------Ansible Controller Node Commands------>>>>>>>>>>>>
+1  yum install ansible-core -y
+    2  ansible --version
+    3  ansible-config init --disable
+    4  ansible-config init --disable > ansible.cfg
+    5  ls
+    6  cat ansible.cfg 
+    7  vi ansible.cfg 
+    8  ansible --version
+    9   vi inventory
+   10  vi key.pem
+   11   vi inventory
+   12   ansible all --list-hosts
+   13  vi ansible.cfg 
+   14   ansible all --list-hosts
+   15  vi ansible.cfg 
+   16   ansible all --list-hosts
+   17   ansible --help
+   18  ansible all -m command -a date
+   19  vi ansible.cfg 
+   20  ansible all -m command -a date
+   21  ls -l key.pem 
+   22  chmod 400 key.pem 
+   23  ls -l key.pem 
+   24  chmod 700 key.pem 
+   25  ls -l key.pem 
+   26  chmod 400 key.pem 
+   27  chmod 400 key.pem 
+   28  ansible all -m command -a date
+   29  ansible all -m command -a "date"
+   30  ls -l key.pem 
+   31  ansible all -m command -a "date"
+   32  vi key.pem 
+   33  vi inventory
+   34   ansible all --list-hosts
+   35  ansible all -m command -a "date"
+   36  ansible all -m command -a "cal"
+   37  ansible all -m command -a "sudo yum install nginx"
+   38  ansible all -m command -a "yum install nginx"
+   39  vi ansible.cfg 
+   40  ansible all -m command -a "yum install nginx"
+   41  ansible all -m command -a "sudo yum install nginx"
+   42  ansible all -m command -a "sudo id"
+   43  ansible all -m command -a "id"
+   44  ansible all -m command -a "id" -b
+   45  vi ansible.cfg 
+   46  ansible all -m command -a "yum install nginx" -b
+   47  ansible all -m command -a "yum install nginx -y" -b
+   48  ansible all -m command -a "systemctl start nginx" -b
+   49   vi httpd.yml
+   50  vi webpage.htm
+   51  rm we
+   52  rm -f webpage.htm
+   53  ls
+   54  vi index.html
+   55  vi httpd.yml 
+   56  vi httpd.yml 
+   57  vi httpd.yml 
+   58  ansible-playbook httpd.yml  
+   59  vi httpd.yml 
+   60  ansible-playbook httpd.yml  
+   61  ansible-playbook httpd.yml  
+   62  vi index.html 
+   63  ansible-playbook httpd.yml  
+   64  vi httpd.yml 
+   65  ansible-playbook httpd.yml  
+   66  vi httpd.yml 
+   67  ansible-playbook httpd.yml  
+   68  vi httpd.yml 
+   69  ansible-playbook httpd.yml  
+   70  ansible-playbook httpd.yml  
+   71  history
+
+
+
+<<<<<<<<------------Ansible Target Node Commands ------------>>>>>>>>>
+    1  rpm -q nginx
+    2  rpm -q nginx
+    3  rpm -q httpd
+    4  ls /var/www/html
+    5  netstat -tnlp
+    6  systemctl stop nginx
+    7  systemctl status httpg
+    8  systemctl status httpd
+    9  history
