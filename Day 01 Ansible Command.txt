@@ -16,9 +16,9 @@
    15  vi ansible.cfg 
    16   ansible all --list-hosts
    17   ansible --help
-   18  ansible all -m command -a date
+   18
    19  vi ansible.cfg 
-   20  ansible all -m command -a date
+   2
    21  ls -l key.pem 
    22  chmod 400 key.pem 
    23  ls -l key.pem 
@@ -26,7 +26,7 @@
    25  ls -l key.pem 
    26  chmod 400 key.pem 
    27  chmod 400 key.pem 
-   28  ansible all -m command -a date
+
    29  ansible all -m command -a "date"
    30  ls -l key.pem 
    31  ansible all -m command -a "date"
